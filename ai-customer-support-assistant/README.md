@@ -1,25 +1,34 @@
 # AI Customer Support Assistant
 
-This is a beginner Prompt Engineering project that simulates a customer support assistant using ChatGPT.
+This Prompt Engineering project simulates a customer support assistant using ChatGPT. It demonstrates how to structure and refine prompts to handle typical customer service queries in a retail setting.
 
-## 📌 Features
-- Designed prompts for 10+ realistic retail customer service scenarios
-- Iterative prompt refinement to improve tone and accuracy
-- Optional Streamlit interface to test responses
+## 🚀 Features
 
-## 📁 Folder Structure
-- `/prompts/`: Contains categorized prompt examples
-- `/evaluations/`: Shows before/after prompt output and analysis
-- `/interface/`: (Optional) Contains Streamlit code
+- Categorized prompts for FAQs, order tracking, and return policies
+- Iterative prompt design using zero-shot and few-shot examples
+- Evaluation of prompt quality with before/after comparisons
+- Optional Streamlit interface to test responses interactively
 
-## ✅ Example Prompt
+## 📁 Structure
 
-**Prompt:**  
+- `/prompts/`: Contains scenario-specific prompt designs
+- `/evaluations/`: Shows prompt improvements and analysis
+- `/interface/`: Optional chatbot interface using Streamlit
+
+## 🔗 Live Demo
+
+Coming soon...
+
+## 📌 Example Prompt
+
+**User Input:**  
 "Where is my order?"
 
+**Engineered Prompt:**  
+"You are a helpful customer support assistant for an online retail store. When a user asks about order tracking, ask them for their order number and explain how they can track it."
+
 **Response:**  
-"Please provide your order number so I can look it up for you."
+"Sure, I can help you with that! Could you please provide your order number? Once I have it, I can check the status of your order for you."
 
 ---
 
-More improvements and demo coming soon.
